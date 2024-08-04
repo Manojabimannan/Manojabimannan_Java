@@ -9,7 +9,7 @@ public class PrimeNumber {
 		Scanner in =new Scanner(System.in);
 		int number=29;
 		Boolean isprime=true;
-		for(int i=2;i<=number/2;i++) {
+		for(int i=2;i <=number/2;i++) {
 			if(number%2==0) {
 				isprime=false;
 			}
