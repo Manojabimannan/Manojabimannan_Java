@@ -1,0 +1,38 @@
+Constructor:
+ -> Initialize the state of the object.
+ -> Name of the constructor must be similar to class name.
+ -> it doesn't have a explicit return type.
+ 
+ Types of Constructor:
+ 
+ 1.Default Constructor: 
+   -> which does not accept any value.
+   -> initialize the instance variable with default values.
+   -> When there is no creating constructor for class it automatically compiler provide default constructor.
+ 
+ 2.Parameterized Constructor:
+   ->One which can initialize the instance variables with given values.
+   ->constructor which accepts the arguments is called parameterized constructor.
+   
+ -> The constructor is not inherited.
+ -> The constructor can't be final.
+ 
+ Can we overload the constructor:
+-> yes we can overloaded b y changing the number of arguments accepted by the constructor or changing the datatype 
+   of parameters.
+  
+ Copy constructor:
+ -> There is no copy constructor in java. we can copy the values from one object to another like copy constructor in c++.
+    ways to copy the values of one object into another in java:
+    1.By constructor
+    2.By assigning the value of one object into another.
+    3.By clone() method of object class.
+    
+    
+  Java constructor                                       Java Method
+  1.Initialize the state of object                      1.Expose the behavior of an object.
+  2.It must not have return type                        2.It have return type
+  3.Invoked implicitly                                  3.Invoked Explicitly
+  4.It provide default constructor if you               4.Method is not provided by the compiler in any case
+  don't have any constructor in class.
+  5.constructor name is same as cls name                5.Method name may or may not same as class name.

@@ -1,0 +1,52 @@
+ Inheritance:
+ -> one object acquires all the properties and behavior of another object of another class.
+ -> IS-A relationship  (parent-child)
+ 
+ 5 types of inheritance in java.
+   1.Single-level
+   2.Multi-level  
+   3.Multiple  [not supported]
+   4.Hierarchical
+   5.Hybrid
+   
+ Uses:
+ -> Code reusability
+ -> Runtime polymorphism cannot achieved without using inheritance.
+ -> real-time object which makes oops more realistic.
+ 
+ Aggregation:
+ -> Has - A relationship
+ Example: Employee has age,name,address(in that address has a street,no,pincode)
+          in that we say employee class has a object of address class.
+          
+ Composition:
+ -> Holding reference of class within some other class is composition.
+ Example: A class contain students. A Students cannot exist without a class. There exists composition b/w cls and student.
+ 
+ Difference b/w Aggregation and composition.
+ Aggregation - is a weak relationship
+ Composition - is a Strong relationship
+ Example: bike has indicator(Aggregation) and bike has Engine(composition).
+ 
+ -> java doesn't support pointers
+ 
+ Super:
+ -> it represent the immediate parent class object.
+ uses:
+   1.It refer to immediate parent class instance variable.
+   2.It can be invoke immediate Parent class method.
+   3.It can  be invoke immediate Parent class constructor.
+   
+  This:
+  -> It reference the variable that refer the current object.
+  -> It refer to current class properties such as instance,method,variable,constructor.
+  -> It can also passed argument into method or constructor.
+  -> It is possible to refer the static members because it reference variable refer to current class object.
+  
+  Difference b/w this and super.
+  -> super keyword points to parent class where as this keyword points to current class.
+  -> super keyword is primarily used for initializing base class variables derived class whereas this keyword is 
+  primarily used to differentiate b/w local and instance variable.
+  -> super and this must be first statement inside constructor otherwise it will show compiler error.
+  
+  

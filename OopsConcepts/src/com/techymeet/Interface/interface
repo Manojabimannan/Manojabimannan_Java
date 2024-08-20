@@ -1,0 +1,30 @@
+Interface:
+   1.It is used to achieve abstraction.
+   2.By interface, we can support the functionality of multiple inheritance.
+   3.It can be used to achieve loose coupling.
+   4.Interface are used to implement abstraction.
+   
+ Diff b/w class and interface:
+      class                                      Interface
+ 1. you can instantiate variable               1.In an interface,you can't instantiate variable
+ and create an object.                           and create an object.
+ 2.A class can contain concrete                2.The interface cannot contain concrete
+ (with impl) methods                             (with impl) methods.
+ 3.The access specifier used with cls          3.Interface only one specifier is used public.
+ are private,protected,public.
+ 
+ Maker Interface:
+ -> An interface is recognized as an empty interface(no field, or methods) is maker interface.
+ Example MI: Serializable,Cloneable,and Remote interface.
+ 
+      Abstract Class                                   Interface Class
+1.Both abstract and non-abstract methods          1.The interface contain only abstract methods.
+may be found in an abstract class.
+2.Abstract class support Final method.            2.The interface class does-not support final methods.
+3.Multiple Inheritance is not supported by        3.Multiple Inheritance is supported by
+the abstract class.                                 the Interface class.
+4.Abstract keyword is used to declare             4.Interface keyword is used to declare 
+  abstract class.                                    interface class.
+ 5.Extend keyword is used to extend               5.implement keyword is used to implement.
+ 6.Abstract class like protected,private.         6.All class members are public by default.
+  

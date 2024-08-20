@@ -1,0 +1,44 @@
+Polymorphism:
+   -> if one task is performed in different ways 
+   ex: cat speaks meow 
+   
+  it has two types
+    1. Method overloading
+    2.Method overriding
+    
+  1.method overloading:
+    -> it allows us to create multiple method with same name but different signature.
+       we can achieve method overloading in two ways:
+       1.By changing the number of arguments
+       2.By changing the data type of arguments
+       
+   Advantage:
+      -> Method overloading increases the readability of the program.
+   Note:
+      -> Method overloading not possible by changing the return type of method only.
+      
+    Method Overloading Type Promotion:
+    -> One type is promoted to another implicitly if no matching datatype is found.
+    Note: 
+      -> One type is not de-promoted implicitly for example double cannot be depromoted to any type implicitly.
+      
+  2.method overriding:
+   -> if a subclass provides a specific implementation of method that is already provided by its parent class.
+   -> it is used for runtime polymorphism and implement the interface methods.
+   
+   Rule:
+     1. the method must have same name as in parent class.
+     2. the method must have the same signature as parent class.
+     3. two classes must have s Is-A relationship between them.
+     
+    Note:
+      1. we can't override the static method beacuse they are part of class not the object.
+      
+    
+    
+    
+   Method Overloading                                                      Method Overriding
+   1.Method overloading increases the                         1.Method overriding provides the specific implementation of the method 
+     readability of the program.                                that is already provided by its superclass.
+   2.Method overloading occurs within the class.             2.Method overriding occurs in two classes that have IS-A relationship between them.
+   3.In this case, the parameters must be different.         3.In this case, the parameters must be the same.	
