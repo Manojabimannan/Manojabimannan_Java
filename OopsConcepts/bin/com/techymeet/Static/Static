@@ -1,0 +1,51 @@
+Static variable:
+-> It is used to refer to common property of all objects. 
+-> Static variable gets memory only once in the class area at time of class loading.
+-> Using static variable makes your program more memory efficient.
+-> Static variable belongs to class rather than object.  
+
+Static Method:
+-> It belong to class rather than the object.
+-> There is no need to create the object to call static method.
+-> It access and change the value static variable.
+
+Restrictions applied Java static method:
+-> The static method can not use non-static data member or call non-static method directly.
+-> this and super cannot be used in static context as they are non-static.
+
+Main Method:
+-> Because object is not required to call the static method.
+-> if we make main method non-static ,JVM will have to create its object first and then call main() method 
+which will lead to extra memory allocation.
+
+can Override static method:
+-> No , we can't override the static method.
+
+what is static block ?
+It is used to initialize the static data member .It is executed before the main method at the time of class loading.
+
+static modifier is removed from signature of main method?
+->Prog
+
+
+Static Method                                           Instance Method
+1.Method that declare as static is                      Method that is not declared static is
+  static method.                                        known as instance method.
+2.don't create the object to call static ram 
+compiles,at runtime,it throws an error "NoSuchMethodError".  method object is required to call the instance method
+3.Non-static(instance) members cannot access in         Static and non-Static variables both can be accessed
+  static-context(static method,static nested class)     in instance methods.
+  directly.  
+
+can we make constructor in static?
+As we know that static-context(method,block,variable) belong to class, not the object where as constructor is
+belong to object so there is no make constructor as static . If you try it show compile error.
+
+Can we make abstract method static  in java?
+ if we make abstract method static , it will become the part of the class and we can directly call it which is unnecessary.
+ 
+ can we declare the static variable and methods in abstract class?
+ Yes, we can declare the static variable and methods in abstract class and we can access the static context declare inside
+ the abstract class by using name of abstract class.
+ 
+                            

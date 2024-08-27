@@ -1,0 +1,29 @@
+Abstraction:
+  ->It is a process of hiding the implementation details and showing only functionality to user.
+  ->It displays just the essential things to user and hides the internal implementation
+  Example: sending sms where you type the text and send message.You don't know the internal processing about the message delivery.
+  Abstraction enables you to focus on what the object does instead of how it does it. 
+  Abstraction lets you focus on what the object does instead of how it does it.
+  
+   2 ways to achieve abstraction
+   1.abstract class
+   2.Interface
+   
+  Abstract class:
+ -> A class which is declared as abstract is known as an abstract class. 
+ -> It can have abstract and non-abstract methods.
+ -> It needs to be extended and its method implemented. It cannot be instantiated.
+ 
+ Rule:
+ 1.An abstract class must be declared with abstarct keyword
+ 2.It can have abstract and non-abstract methods
+ 3.it cannot instantiated
+ 4.it can have constructor and static method also.
+ 5.It can have final methods which will force the subclass not to change body of method.
+ 
+ Abstract method:
+ A method which is declared as abstract and does not have implementation is known as an abstract method.
+ 
+ Note:
+  If there is an abstract method in a class, that class must be abstract.
+  

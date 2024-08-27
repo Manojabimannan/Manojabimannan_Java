@@ -27,9 +27,11 @@ public class HashMapCollection {
 		System.out.println(s);
 		@SuppressWarnings("rawtypes")
 		Collection vc=hs.values();
+		System.out.println("Value");
 		System.out.println(vc);
 		@SuppressWarnings("rawtypes")
 		Set K=hs.keySet();
+		System.out.println("Key");
 		System.out.println(K);
 		System.out.println("-----------Iterator----------");
 		@SuppressWarnings("rawtypes")

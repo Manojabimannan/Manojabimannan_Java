@@ -1,4 +1,4 @@
-package com.techymeet.corejavaoopsAbstraction;
+ package com.techymeet.corejavaoopsAbstraction;
 
 public class FaceBook implements WhatApp {
 
@@ -23,6 +23,8 @@ public class FaceBook implements WhatApp {
 		WhatApp WA=new FaceBook();
 		WA.SocialMedia();
 		WA.WhatApp();
+		
+		
 		
 	}
 

@@ -20,6 +20,7 @@ public class LinkedList1 {
 		System.out.println(ll.isEmpty());
 		System.out.println(ll.remove(5));
 		System.out.println(ll);
+		//Add New Old One
 		LinkedList<Integer> ll1=new LinkedList<>();
 		ll1.addAll(ll);
 		System.out.println(ll1);
@@ -33,9 +34,9 @@ public class LinkedList1 {
 		ll2.addAll(2,ll1);
 		System.out.println(ll2.peek());
 		System.out.println(ll2.peekFirst());
-		System.out.println(ll2.peekLast());
-		System.out.println(ll2.pop());
-		System.out.println(ll2.poll());
+		System.out.println("peekLast"+ll2.peekLast());
+		System.out.println("Pop="+ll2.pop());
+		System.out.println("poll= "+ll2.poll());
 		System.out.println(ll2.pollLast());
 		System.out.println(ll2);
         Iterator<Integer> iterable=ll2.iterator();

@@ -1,0 +1,16 @@
+Final variable:
+-> The final variable is used to restrict the user from updating.if we initialize the final variable,we
+can't change its value.
+-> The final variable which is not assigned to any value can only assigned through class constructor.
+
+Can we initialize the final blank variable?
+-> yes , if it not static , we can initialize in constructor , if it is static blank variable it can initialized only in 
+static block.
+
+yes we can declare main method as final. 
+
+Final can  never be a constructor it can't be inherited.
+
+
+The main difference between the final method and abstract method is that the 
+abstract method cannot be final as we need to override them in the subclass to give its definition.

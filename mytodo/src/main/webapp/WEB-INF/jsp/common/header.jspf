@@ -1,0 +1,52 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<html>
+
+<head>
+<title>Todo Management</title>
+<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #003153 ; /* Prussian Blue Background color of the footer */
+            color: blue !important;    /* Font color of the footer text */
+            height: 50px;
+            text-align: center;
+        }
+    </style>
+<style>
+    nav.navbar {
+        background-color: #003153 ;
+    }
+    nav.navbar ul.nav > li > a {
+        color: white; 
+    }
+    nav.navbar ul.nav > li > a:hover {
+        color: #333; 
+    }
+</style>
+<style>
+    .table-bordered {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .table-bordered th,
+    .table-bordered td {
+        border: 1px solid black;
+        text-align: center; /* Center-align text in cells */
+        padding: 8px; /* Add padding for better readability */
+    }
+</style>
+
+</head>
+
+<body>
